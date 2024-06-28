@@ -1,33 +1,92 @@
-# Gradle files
-.gradle/
-build/
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Local configuration file (sdk path, etc)
-local.properties
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
 
-# Log/OS Files
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Rr][Mm][Vv]7/
+[Aa][Rr][Mm]v7s/
+[Aa][Rr][Cc]h/
+[Aa][Rr][Cc]h64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Tt]emp/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.vscode-oss/
+
+# Windows 10
+[Dd]esktop.ini
+[Dd]irectory/*
+
+# Backup & report files
+*.bak
+*.backup
+*.bak2
+*.swp
+*.orig
+*.htaccess
 *.log
+*.zip
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
-*.iml
+# JetBrains Rider
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.sln.iml
 
-# Keystore files
-*.jks
-*.keystore
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Mono Auto Generated Files
+mono_crash.*
 
-# Android Profiling
-*.hprof
+# macOS
+*.DS_Store
+
+# Visual Studio temporary files
+.vs/
+
+# Tizen Studio
+.adt/
+.DS_Store
+
+# Rider
+.idea/
+*.sln.iml
